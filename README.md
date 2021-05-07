@@ -16,7 +16,7 @@
 </p>
 
 # MashaRobot
-Me On Telegram [✨MASHA✨](https://t.me/MashaRoBot)
+Me On Telegram [✨ᴅᴀɴɴʏ✨](https://t.me/DaanyRo_Bot)
 This is just a demo bot.. Don't try to add to your group.. Create your own bot 
 ## How To Host
 The easiest way to deploy this Bot
