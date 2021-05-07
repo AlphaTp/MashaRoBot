@@ -74,14 +74,14 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
-`I'm Powerfull group management bot, here to help you manage your groups!.`(https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
+`Hellow My name is` *ᴅᴀɴɴʏ*
+`I'm Powerfull group management bot, here to help you manage your groups!.`(https://telegra.ph/file/e030810780760e71ff8b5.jpg)
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD 𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖 TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
+            text="➕️ ADD ᴅᴀɴɴʏ TO YOUR GROUP ➕️", url="t.me/DannyRoBot?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="❗ ABOUT", callback_data="masha_"),
@@ -89,9 +89,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💾 SOURCE", callback_data="source_"),
+            text="😈Owner", callback_data="https://t.me/DIPESH_XD"),
         InlineKeyboardButton(
-            text="📺 SUPPORT", url="https://t.me/"
+            text="📺 SUPPORT", url="https://t.me/@Dannyfed_support"
         ),
     ],
 ]
@@ -100,7 +100,7 @@ buttons = [
 HELP_STRINGS = """
 *『HELP BUTTONS HERE』*
 
-• `/help`*:* PM's you this message[.](https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
+• `/help`*:* PM's you this message[.](https://telegra.ph/file/e030810780760e71ff8b5.jpg)
  • `/help` `<module name>`*:* PM's you info about that module.
  • `/settings`*:*
    • in PM: will send you your settings for all supported modules.
@@ -353,7 +353,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *ᴅᴀɴɴʏ*, a powerful group management bot built to help you manage your group easily.
                  ❍ I can restrict users.
                  ❍ I can greet users with customizable welcome messages and even set a group's rules.
                  ❍ I have an advanced anti-flood system.
@@ -361,8 +361,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_ licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/AlphaTp/MashaRoBot).
-                 If you have any question about Masha, let us know at .""",
+                 Here is the [💾Repository](https://t.me/DIPESH_XD).
+                 If you have any question about Danny, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -388,8 +388,8 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi.. I'm *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
-                 \nHere is the [Source Code](https://github.com/AlphaTp/MashaRoBot) .""",
+            text=""" Hi.. I'm *ᴅᴀɴɴʏ*
+                 \nHere is the [Source Code](https://t.me/DIPESH_XD) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
