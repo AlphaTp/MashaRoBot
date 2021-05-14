@@ -12,8 +12,8 @@ from tswift import Song
 from youtube_dl import YoutubeDL
 from youtubesearchpython import SearchVideos
 
-from innexia.conf import get_str_key
-from innexia.pyrogramee.pluginshelper import get_text, progress
+from MashaRoBot.conf import get_str_key
+from MashaRoBot.pyrogramee.pluginshelper import get_text, progress
 from innexia import pbot
 
 GENIUS = get_str_key("GENIUS_API_TOKEN", None)
