@@ -84,8 +84,8 @@ buttons = [
             text="➕️ ADD 𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖 TO YOUR GROUP ➕️", url="t.me/MashaRoBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="❗ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="⁉️ Help & COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="❗ ABOUT ‼️", callback_data="masha_"),
+        InlineKeyboardButton(text="⁉️ Help & COMMANDS ❓", callback_data="help_back"),
     ],
     
 ]
