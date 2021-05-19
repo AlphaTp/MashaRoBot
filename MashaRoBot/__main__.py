@@ -74,8 +74,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+(https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
 `Hellow My name is` *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
-`I'm Powerfull group management bot, here to help you manage your groups!.`(https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
+`I'm Powerfull group management bot, here to help you manage your groups!.
 """
 
 buttons = [
