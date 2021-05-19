@@ -85,14 +85,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="❗ ABOUT", callback_data="masha_"),
-        InlineKeyboardButton(text="📚 COMMANDS", callback_data="help_back"),
+        InlineKeyboardButton(text="⁉️ Help & COMMANDS", callback_data="help_back"),
     ],
     
 ]
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*
+*『G O D Z I L L A』*
 
 • `/help`*:* PM's you this message[.](https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
  • `/help` `<module name>`*:* PM's you info about that module.
