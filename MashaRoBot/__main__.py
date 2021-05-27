@@ -74,8 +74,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
-`I'm Powerfull group management bot, here to help you manage your groups!. `(https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
+`𝘏𝘦𝘭𝘭𝘰𝘸 𝘮𝘺 𝘯𝘢𝘮𝘦 𝘪𝘴` *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
+`𝘐'𝘮 𝘗𝘰𝘸𝘦𝘳𝘧𝘶𝘭𝘭 𝘨𝘳𝘰𝘶𝘱 𝘮𝘢𝘯𝘢𝘨𝘦𝘮𝘦𝘯𝘵 𝘣𝘰𝘵, 𝘩𝘦𝘳𝘦 𝘵𝘰 𝘩𝘦𝘭𝘱 𝘺𝘰𝘶 𝘮𝘢𝘯𝘢𝘨𝘦 𝘺𝘰𝘶𝘳 𝘨𝘳𝘰𝘶𝘱𝘴!. `(https://telegra.ph/file/34044974cd5c6be5f9346.jpg)
 """
 
 buttons = [
@@ -355,8 +355,8 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                  ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
                  ❍ I check for admins' permissions before executing any command and more stuffs
                  \n_ licensed under the GNU General Public License v3.0_
-                 Here is the [💾Repository](https://github.com/AlphaTp/MashaRoBot).
-                 If you have any question about Masha, let us know at .""",
+                 Here is the [🧾 REPO](http://t.me/Luminous_Robot).
+                 If you have any question about Godzilla, let us know at .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -383,7 +383,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi.. I'm *𝙂𝙤𝙙𝙯𝙞𝙡𝙡𝙖*
-                 \nHere is the [Source Code](https://github.com/AlphaTp/MashaRoBot) .""",
+                 \nHere is the [Source Code](http://t.me/Luminous_Robot) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
